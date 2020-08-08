@@ -1,67 +1,103 @@
-.title{
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 25px;
-}
-.title_area{
-    position: absolute;
-    width: 1280px;
-    height: 120px;
-    background-color: aquamarine;
-    top: 0px;
-    left: 0px;
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 25px;
 }
 
-.bookListRowTh{
-    background-color: rgb(201, 253, 253);
-    font-size: 16px;
-    border:solid 1px rgba(0,0,0,0.3);
-    position: sticky;
-    top: 0px;
-    cursor: pointer;
-    border-radius: 10px;
+.title_area {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background-color: aquamarine;
+  top: 0px;
+  left: 0px;
 }
-.bookListRowTr{
-    background-color: azure;
-    width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3));
+
+.bookListRowTr {
+  background-color: azure;
+  width: 100%;
+  height: 53px;
+  margin-top: 10px;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.3));
 }
-.bookListRowTd{
-    background-color: bisque;
-    font-size: 16px;
-    border:solid 1px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    cursor: pointer;
+
+.bookListRowTh {
+  background-color: rgb(201, 253, 253);
+  font-size: 16px;
+  position: sticky;
+  top: 0px;
+  width: 50px;
+  border-left: solid 5px rgba(239, 239, 239, 1);
+  border-right: solid 5px rgba(239, 239, 239, 1);
+  border-radius: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  border-collapse: separate;
+  border-spacing: 0px, 8px;
 }
-.bookListTable{
-    width: 100%;
-    text-align: center;
-    border-spacing: 8px;
+
+.bookListRowTd {
+  background-color: bisque;
+  font-size: 16px;
+  width: 50px;
+  cursor: pointer;
 }
-.bookListElement{
-    position: absolute;
-    padding: 0px 10px 10px 10px;
-    width: 90%;
-    top: 130px;
-    left: 60px;
-    bottom: 10px;
+
+.bookListRowTh:first-child {
+  width: 300px;
 }
-.bookListThElement{
-    position: absolute;
-    padding: 0px 10px 10px 10px;
-    width: 90%;
-    top: 130px;
-    left: 60px;
-    bottom: 10px;
+
+.bookListRowTd:first-child {
+  width: 300px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
-.bookListTdElement{
-    position: absolute;
-    width: 100%;
-    top: 190px;
-    left:60px;
-    bottom: 10px;
-    overflow-y: scroll;
+
+.bookListRowTh:last-child {
+  width: 50px;
+}
+
+.bookListRowTd:last-child {
+  width: 50px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.bookListTable {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  border-spacing: 0;
+}
+
+.bookListElement {
+  position: absolute;
+  padding: 0px 10px 10px 10px;
+  width: 90%;
+  top: 130px;
+  left: 60px;
+  bottom: 10px;
+}
+
+.bookListThElement {
+  position: absolute;
+  width: 80%;
+  top: 130px;
+  bottom: 580px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookListTdElement {
+  position: absolute;
+  width: 80%;
+  top: 195px;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
 }
