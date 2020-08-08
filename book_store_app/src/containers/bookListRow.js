@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 class BookListRow extends React.Component {
   render() {
@@ -7,7 +8,11 @@ class BookListRow extends React.Component {
       <>
         <tr className="bookListRowTr">
           <td className="bookListRowTd">教科書</td>
-          <td className="bookListRowTd">i</td>
+          <td className="bookListRowTd">
+            <Link to={"/detail/1"}>
+              <img src="../images/icon.png" />
+            </Link>
+          </td>
           <td className="bookListRowTd">!!</td>
         </tr>
       </>
