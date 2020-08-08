@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-import Home from './containers/home.js';
+import React from "react";
+import "./App.css";
+import Home from "./containers/home.js";
 
 class App extends React.Component {
-  render(){
+  render() {
     return (
       <div className="App">
-        <Home/>
+        <Home />
       </div>
     );
   }
