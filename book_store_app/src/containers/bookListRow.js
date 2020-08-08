@@ -7,39 +7,8 @@ class BookListRow extends React.Component {
       <>
         <tr className="bookListRowTr">
           <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
-        </tr>
-        <tr className="bookListRowTr">
-          <td className="bookListRowTd">教科書</td>
+          <td className="bookListRowTd">i</td>
+          <td className="bookListRowTd">!!</td>
         </tr>
       </>
     );

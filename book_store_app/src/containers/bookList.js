@@ -8,14 +8,20 @@ class BookList extends React.Component {
       <>
         <div className="bookListThElement">
           <table className="bookListTable">
-            <tr className="bookListRowTr">
-              <th className="bookListRowTh">本の題名</th>
-            </tr>
+            <thead>
+              <tr className="bookListRowTr">
+                <th className="bookListRowTh">本の題名</th>
+                <th className="bookListRowTh">詳細</th>
+                <th className="bookListRowTh">削除</th>
+              </tr>
+            </thead>
           </table>
         </div>
         <div className="bookListTdElement">
           <table className="bookListTable">
-            <BookListRow />
+            <tbody>
+              <BookListRow />
+            </tbody>
           </table>
         </div>
       </>
